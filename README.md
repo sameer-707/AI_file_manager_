@@ -7,5 +7,6 @@ currently it just sorts Your files from a given folder 📁 using Google gemini.
 - GUI made using [Streamlit](https://github.com/streamlit/streamlit)
 
 - This is just a fun project i started ❣️.Have a good day.
-#Under Work ⚒️
+
+# Under Work.. ⚒️
 
