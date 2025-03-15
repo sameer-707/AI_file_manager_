@@ -2,7 +2,7 @@ from pathlib import Path
 import shutil
 import os
 import json
-
+import file_picker
 def list_files(directory_path):
     """
     Lists all files in the specified source_dir.
@@ -23,6 +23,16 @@ def list_files(directory_path):
             files.append(f.name)
             count+=1
     return files
+
+def list_folders(directory_path):
+    folders = []
+    source_dir = Path(directory_path)
+    for f in source_dir.iterdir():
+        if f.is_dir():  # Changed from is_file() to is_dir()
+            folders.append(f.name)
+        
+    
+    return folders
 
 # Function to move files to their respective folders
 def organize_files(json_data, source_dir, destination_dir):

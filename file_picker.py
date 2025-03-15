@@ -8,13 +8,13 @@ def up_dir(dir_string,devider):
     last_slash_index = dir_string.rindex(devider)
     # Return the substring from the start up to (but not including) the last slash
     return dir_string[:last_slash_index]
-
+@st.fragment
 @st.dialog('select yo moma')
-def fragment():
+def folder_selector():
 
     if 'source_dir' not in st.session_state:
         st.session_state.source_dir=os.getcwd()
-
+    st.title(st.session_state.source_dir)
     if st.button('up a level', icon=":material/arrow_upward:"):
         st.session_state.source_dir = up_dir(st.session_state.source_dir, "\\") 
 
@@ -24,12 +24,18 @@ def fragment():
             print(st.session_state.source_dir)
             st.session_state.source_dir=os.path.join(st.session_state.source_dir,f)
             print(st.session_state.source_dir)
-            st.rerun()
-    if st.button('select'):
-        st.write(st.session_state.source_dir+" selected")
-if st.button('fragment'):
-    fragment()
+            #final_value=False
+            st.rerun(scope='fragment')
 
+    if st.button('select'):
+        selected_folder = st.session_state.source_dir
+        st.rerun(scope='app')
+        #return selected_folder
+        return selected_folder
+    
+if __name__ == '__main__':
+    if st.button('run'):
+        print(folder_selector())
     # You can call any Streamlit command, including custom components:
     
 
