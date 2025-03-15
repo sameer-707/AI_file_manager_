@@ -1,0 +1,6 @@
+.env
+__pycache__/
+testing folder/
+ios_icons/
+local_file_picker/
+niceguifilepicker/
