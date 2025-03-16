@@ -11,9 +11,6 @@ def up_dir(dir_string,devider):
 @st.fragment
 @st.dialog('select yo moma')
 def folder_selector():
-
-    if 'source_dir' not in st.session_state:
-        st.session_state.source_dir=os.getcwd()
     st.title(st.session_state.source_dir)
     if st.button('up a level', icon=":material/arrow_upward:"):
         st.session_state.source_dir = up_dir(st.session_state.source_dir, "\\") 
@@ -25,17 +22,22 @@ def folder_selector():
             st.session_state.source_dir=os.path.join(st.session_state.source_dir,f)
             print(st.session_state.source_dir)
             #final_value=False
+            st.session_state.x=False
             st.rerun(scope='fragment')
 
     if st.button('select'):
         selected_folder = st.session_state.source_dir
+        st.session_state.x=True
         st.rerun(scope='app')
+        
         #return selected_folder
-        return selected_folder
+        
     
 if __name__ == '__main__':
+    x=1
     if st.button('run'):
-        print(folder_selector())
+        x=folder_selector()
+    print(st.session_state.source_dir,x,'thiz iz X')
     # You can call any Streamlit command, including custom components:
     
 

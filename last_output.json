@@ -1,0 +1,406 @@
+[
+    {
+        "file_name": "md-map.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-medal.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-medical.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-medkit.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-megaphone.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-menu.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-mic-off.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-mic.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-microphone.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-moon.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-more.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-move.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-musical-note.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-musical-notes.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-navigate.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-notifications-off.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-notifications-outline.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-notifications.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-nuclear.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-nutrition.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-open.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-options.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-outlet.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-paper-plane.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-paper.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-partly-sunny.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-pause.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-paw.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-people.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-person-add.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-person.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-phone-landscape.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-phone-portrait.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-photos.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-pie.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-pin.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-pint.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-pizza.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-planet.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-play-circle.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-play.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-podium.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-power.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-pricetag.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-pricetags.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-print.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-pulse.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-qr-scanner.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-quote.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-radio-button-off.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-radio-button-on.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-radio.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-rainy.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-recording.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-redo.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-refresh-circle.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-refresh.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-remove-circle-outline.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-remove-circle.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-remove.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-reorder.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-repeat.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-resize.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-restaurant.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-return-left.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-return-right.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-reverse-camera.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-rewind.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-ribbon.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-rocket.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-rose.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-sad.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-save.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-school.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-search.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-send.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-settings.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-share-alt.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-share.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-shirt.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-shuffle.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-skip-backward.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-skip-forward.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-snow.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-speedometer.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-square-outline.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-square.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-star-half.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-star-outline.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-star.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-stats.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-stopwatch.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-subway.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-sunny.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-swap.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-switch.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-sync.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-tablet-landscape.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-tablet-portrait.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-tennisball.svg",
+        "destination_folder": "Images"
+    },
+    {
+        "file_name": "md-text.svg",
+        "destination_folder": "Images"
+    }
+]
