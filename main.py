@@ -16,8 +16,7 @@ def get_response(files_list,custom_prompt, GEMINI_API_KEY):
     client = genai.Client(api_key=GEMINI_API_KEY)
     response = client.models.generate_content(
         model="gemini-2.0-flash",
-        contents='''Organize these files into folders based on whatever feels best. For each file, provide a JSON . Use categories like Images, Documents, Audio, etc.or you can also use categories based on file name if not enough variety in file extension. Output only the JSON. pay special attention to following instructions and override the previous instructions if you have to:-'
-        '''+custom_prompt+'here are the files :-'+files_list,
+        contents=custom_prompt+'here are the files :-'+files_list,
         config={
             'temperature': 0.1,
             'response_mime_type': 'application/json',
