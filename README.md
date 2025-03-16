@@ -1,4 +1,7 @@
-### AI File Manager
+![screenshot](icon3.png)
+
+
+# AI File Manager
 currently it just sorts Your files from a given folder 📁 using Google gemini.
 
 ## Info
@@ -8,5 +11,5 @@ currently it just sorts Your files from a given folder 📁 using Google gemini.
 
 - This is just a fun project i started ❣️.Have a good day.
 
-# Under Work.. ⚒️
+### Under Work.. ⚒️
 
