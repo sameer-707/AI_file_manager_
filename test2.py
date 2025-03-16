@@ -16,7 +16,7 @@ def page2():
 pg = st.navigation([
     st.Page("gui_main.py", title="First page", icon="🔥"),
     st.Page(page2, title="Second page", icon=":material/favorite:"),
-    st.Page('test3.py', title='third page',icon="🤖")
+    #st.Page('test3.py', title='third page',icon="🤖")
 ])
 
 
