@@ -8,17 +8,18 @@ import file_picker
 
 
 initial_dir = os.getcwd()
+root="source_dir"
 
-if "source_dir" not in st.session_state:
+if root not in st.session_state:
 
 # gui to get the source and destination directory
-    st.session_state.source_dir=os.path.join('D:\zaved\pythonprojects\gemini', 'ios_icons')
+    st.session_state[root]=os.path.join('D:\zaved\pythonprojects\gemini', 'ios_icons')
 #st.session_state.source_dir=st.text_input("Enter the path of the source directory",value=st.session_state.source_dir)
 if st.button("Select source directory"):
-    file_picker.folder_selector()
+    file_picker.folder_selector(root)
    
-st.text(st.session_state)
-if os.path.exists(st.session_state.source_dir):
+st.text(st.session_state[root])
+if os.path.exists(st.session_state[root]):
     path1_validated=True
     st.write("Passing")
 else:
