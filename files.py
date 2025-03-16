@@ -49,14 +49,19 @@ def organize_files(json_data, source_dir, destination_dir):
             print(f"Moved: {item['file_name']} -> {item['destination_folder']}")
         else:
             print(f"File not found: {item['file_name']}")
-def organize_revert(json_data, source_dir, destination_dir):
+def organize_revert(json_file_path, source_dir, destination_dir):
+    with open(json_file_path, 'r') as file:
+        json_data = json.load(file)
     for item in json_data:
         file=os.path.join(destination_dir, item["destination_folder"], item["file_name"])
         revert_dir=os.path.join(source_dir, item["file_name"])
-        if os.path.exists(revert_dir):
-            print('file'+file+'already exists, therefore skipping')
+        if os.path.exists(file):
+            if os.path.exists(revert_dir):
+                print('file'+file+'already exists, therefore skipping')
+            else:
+                shutil.move(file, revert_dir)
         else:
-            shutil.move(file, revert_dir)
+            print('file does not exists...skipping')
     delete_empty_folders(destination_dir)
 def delete_empty_folders(source_dir):
     # Traverse the source_dir tree
@@ -74,35 +79,12 @@ def delete_empty_folders(source_dir):
 # Main program
 if __name__ == "__main__":
     # Load JSON data (from a file or string)
-    json_data = '''
-    [
-        {"file_name": "1.zip", "destination_folder": "Archives"},
-        {"file_name": "all users - remove Edit in Notepad.reg", "destination_folder": "Configuration"},
-        {"file_name": "brave_debullshitinator-policies.reg", "destination_folder": "Configuration"},
-        {"file_name": "buffalo_trail__the_impending_storm_2014.79.3.jpg", "destination_folder": "Images"},
-        {"file_name": "bundle.msixbundle", "destination_folder": "Installers"},
-        {"file_name": "copyq-9.1.0-setup.exe", "destination_folder": "Installers"},
-        {"file_name": "copyq-9.1.0.zip", "destination_folder": "Archives"},
-        {"file_name": "current user - remove Edit in Notepad.reg", "destination_folder": "Configuration"},
-        {"file_name": "download.jpg", "destination_folder": "Images"},
-        {"file_name": "ec_menu.zip", "destination_folder": "Archives"},
-        {"file_name": "elements_v2_cursor_by_skyeo84_dhe234j.zip", "destination_folder": "Archives"},
-        {"file_name": "get-pip.py", "destination_folder": "Scripts"},
-        {"file_name": "gorgeous-hyper-realistic-painting-of-a-peaceful-nature-landscape-8k-best-most-popular-free-download-wallpapers-for-macbook-pro-and-macbook-air-and-microsoft-windows-desktop-pcs-4k-07-12-2024-1733638449-hd-wallpaper.png", "destination_folder": "Images"}
-    ]
-    '''
-    try:
-        data = json.loads(json_data)  # Use json.loads() to parse JSON string
-    except json.JSONDecodeError as e:
-        print(f"Error parsing JSON: {e}")
-        exit(1)
+    
 
     # User-defined paths
     source_directory = os.getcwd()+"\\testing folder"
     destination_directory = os.getcwd()+"\\testing folder"
     # Organize files
     json_file_path=os.path.join(os.getcwd(),"last_output.json")
-    with open(json_file_path, 'r') as file:
-        data = json.load(file)
-    organize_revert(data, source_directory, destination_directory)
-    
+    if os.path.exists(json_file_path):
+        pass

@@ -6,6 +6,9 @@ from easygui import diropenbox
 import main
 import file_picker
 # gui to get the source and destination directory
+import streamlit as st
+
+
 
 initial_dir = os.getcwd()
 def filepick(source_dir):
@@ -32,17 +35,19 @@ if st.button("Select destination directory"):
     destination_dir='destination_dir'
     filepick(destination_dir)
 st.write(st.session_state[destination_dir])
-
+json_file_path="D:\zaved\pythonprojects\gemini\last_output.json"
 
 button=st.button("Run?")
+custom_prompt='files that only start with "a", group them according to the file name, do however you feel will most organize my files'
 # button pressed
 if button:
 
-    json_file="D:\zaved\pythonprojects\gemini\last_output.json"
+    
     
     with st.spinner("Gemini is working..."):
-        if(main.dothething(st.session_state.source_dir , st.session_state.destination_dir,json_file)):   
+        if(main.dothething(st.session_state.source_dir , st.session_state.destination_dir,json_file_path,custom_prompt)):   
             st.write("done")
-else:
-    st.write("Bad choice")
-    
+
+
+if st.button('Undo?'):
+    main.revert(json_file_path, st.session_state.source_dir, st.session_state.destination_dir)

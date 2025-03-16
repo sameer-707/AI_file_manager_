@@ -11,13 +11,13 @@ class rule(BaseModel):
 
 
 
-def get_response(files_list, GEMINI_API_KEY):
+def get_response(files_list,custom_prompt, GEMINI_API_KEY):
     
     client = genai.Client(api_key=GEMINI_API_KEY)
     response = client.models.generate_content(
         model="gemini-2.0-flash",
-        contents='''Organize these files into folders based on their type or purpose. For each file, provide a JSON with two fields: json_path and destination_folder. Use categories like Images, Documents, Audio, etc. Output only the JSON, '
-        '''+files_list,
+        contents='''Organize these files into folders based on whatever feels best. For each file, provide a JSON . Use categories like Images, Documents, Audio, etc.or you can also use categories based on file name if not enough variety in file extension. Output only the JSON. pay special attention to following instructions and override the previous instructions if you have to:-'
+        '''+custom_prompt+'here are the files :-'+files_list,
         config={
             'temperature': 0.1,
             'response_mime_type': 'application/json',
@@ -28,12 +28,12 @@ def get_response(files_list, GEMINI_API_KEY):
 
 
 
-def dothething(source_dir, destination_dir,json_path):
+def dothething(source_dir, destination_dir,json_path,custom_prompt):   #source_dir=the place where the program looks for files, destination_dir=the place where the program places the file inside sorted folder,json_path is the path where json_file is stored(json/path/filename.json)
     load_dotenv()
     files_list=str(files.list_files(source_dir))
 
     GEMINI_API_KEY = os.environ.get("API_KEY")
-    response=get_response(files_list, GEMINI_API_KEY)
+    response=get_response(files_list,custom_prompt, GEMINI_API_KEY)
     
     print('response_type=',type(response),response)
 
@@ -44,7 +44,19 @@ def dothething(source_dir, destination_dir,json_path):
 
     
     files.organize_files(json_file,source_dir,destination_dir)
-    with open(json_path, "w") as file:
-        json.dump(json_file, file, indent=4)
+    if os.path.exists(json_path):
+        os.remove(json_path)
+        
+    else:
+        print('cannot delete json, so appending the data')
+    try:    
+        with open(json_path, "w") as file:
+                json.dump(json_file, file, indent=4)
+    except:
+        print('cannot append data to json')
+    
     return True
 
+
+def revert(json_file_path, source_dir, destination_dir):
+    files.organize_revert(json_file_path, source_dir, destination_dir)

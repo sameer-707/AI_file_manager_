@@ -9,7 +9,7 @@ def up_dir(dir_string,devider):
     # Return the substring from the start up to (but not including) the last slash
     return dir_string[:last_slash_index]
 @st.fragment
-@st.dialog('select yo moma')
+@st.dialog('Select Yo Moma')
 def folder_selector(root):
     if root not in st.session_state:
         st.session_state[root]=os.path.join(os.getcwd())
@@ -37,6 +37,7 @@ def folder_selector(root):
     
 if __name__ == '__main__':
     x=1
+    root='folder'
     if st.button('run'):
         x=folder_selector()
     print(st.session_state[root],x,'thiz iz X')
