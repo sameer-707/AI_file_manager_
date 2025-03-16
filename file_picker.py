@@ -11,6 +11,8 @@ def up_dir(dir_string,devider):
 @st.fragment
 @st.dialog('select yo moma')
 def folder_selector(root):
+    if root not in st.session_state:
+        st.session_state[root]=os.path.join(os.getcwd())
     st.title(st.session_state[root])
     if st.button('up a level', icon=":material/arrow_upward:"):
         st.session_state[root] = up_dir(st.session_state[root], "\\") 
