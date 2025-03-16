@@ -1,362 +1,362 @@
 [
     {
         "file_name": "resize.svg",
-        "destination_folder": "R"
+        "destination_folder": "icons"
     },
     {
         "file_name": "restaurant.svg",
-        "destination_folder": "R"
+        "destination_folder": "icons"
     },
     {
         "file_name": "return-left.svg",
-        "destination_folder": "R"
+        "destination_folder": "icons"
     },
     {
         "file_name": "return-right.svg",
-        "destination_folder": "R"
+        "destination_folder": "icons"
     },
     {
         "file_name": "reverse-camera.svg",
-        "destination_folder": "R"
+        "destination_folder": "icons"
     },
     {
         "file_name": "rewind.svg",
-        "destination_folder": "R"
+        "destination_folder": "icons"
     },
     {
         "file_name": "ribbon.svg",
-        "destination_folder": "R"
+        "destination_folder": "icons"
     },
     {
         "file_name": "rocket.svg",
-        "destination_folder": "R"
+        "destination_folder": "icons"
     },
     {
         "file_name": "rose.svg",
-        "destination_folder": "R"
+        "destination_folder": "icons"
     },
     {
         "file_name": "rss.svg",
-        "destination_folder": "R"
+        "destination_folder": "icons"
     },
     {
         "file_name": "sad.svg",
-        "destination_folder": "S"
+        "destination_folder": "icons"
     },
     {
         "file_name": "sass.svg",
-        "destination_folder": "S"
+        "destination_folder": "icons"
     },
     {
         "file_name": "save.svg",
-        "destination_folder": "S"
+        "destination_folder": "icons"
     },
     {
         "file_name": "school.svg",
-        "destination_folder": "S"
+        "destination_folder": "icons"
     },
     {
         "file_name": "search.svg",
-        "destination_folder": "S"
+        "destination_folder": "icons"
     },
     {
         "file_name": "send.svg",
-        "destination_folder": "S"
+        "destination_folder": "icons"
     },
     {
         "file_name": "settings.svg",
-        "destination_folder": "S"
+        "destination_folder": "icons"
     },
     {
         "file_name": "share-alt.svg",
-        "destination_folder": "S"
+        "destination_folder": "icons"
     },
     {
         "file_name": "share.svg",
-        "destination_folder": "S"
+        "destination_folder": "icons"
     },
     {
         "file_name": "shirt.svg",
-        "destination_folder": "S"
+        "destination_folder": "icons"
     },
     {
         "file_name": "shuffle.svg",
-        "destination_folder": "S"
+        "destination_folder": "icons"
     },
     {
         "file_name": "skip-backward.svg",
-        "destination_folder": "S"
+        "destination_folder": "icons"
     },
     {
         "file_name": "skip-forward.svg",
-        "destination_folder": "S"
+        "destination_folder": "icons"
     },
     {
         "file_name": "skype.svg",
-        "destination_folder": "S"
+        "destination_folder": "icons"
     },
     {
         "file_name": "slack.svg",
-        "destination_folder": "S"
+        "destination_folder": "icons"
     },
     {
         "file_name": "snapchat.svg",
-        "destination_folder": "S"
+        "destination_folder": "icons"
     },
     {
         "file_name": "snow.svg",
-        "destination_folder": "S"
+        "destination_folder": "icons"
     },
     {
         "file_name": "speedometer.svg",
-        "destination_folder": "S"
+        "destination_folder": "icons"
     },
     {
         "file_name": "square-outline.svg",
-        "destination_folder": "S"
+        "destination_folder": "icons"
     },
     {
         "file_name": "square.svg",
-        "destination_folder": "S"
+        "destination_folder": "icons"
     },
     {
         "file_name": "star-half.svg",
-        "destination_folder": "S"
+        "destination_folder": "icons"
     },
     {
         "file_name": "star-outline.svg",
-        "destination_folder": "S"
+        "destination_folder": "icons"
     },
     {
         "file_name": "star.svg",
-        "destination_folder": "S"
+        "destination_folder": "icons"
     },
     {
         "file_name": "stats.svg",
-        "destination_folder": "S"
+        "destination_folder": "icons"
     },
     {
         "file_name": "steam.svg",
-        "destination_folder": "S"
+        "destination_folder": "icons"
     },
     {
         "file_name": "stopwatch.svg",
-        "destination_folder": "S"
+        "destination_folder": "icons"
     },
     {
         "file_name": "subway.svg",
-        "destination_folder": "S"
+        "destination_folder": "icons"
     },
     {
         "file_name": "sunny.svg",
-        "destination_folder": "S"
+        "destination_folder": "icons"
     },
     {
         "file_name": "swap.svg",
-        "destination_folder": "S"
+        "destination_folder": "icons"
     },
     {
         "file_name": "switch.svg",
-        "destination_folder": "S"
+        "destination_folder": "icons"
     },
     {
         "file_name": "sync.svg",
-        "destination_folder": "S"
+        "destination_folder": "icons"
     },
     {
         "file_name": "tablet-landscape.svg",
-        "destination_folder": "T"
+        "destination_folder": "icons"
     },
     {
         "file_name": "tablet-portrait.svg",
-        "destination_folder": "T"
+        "destination_folder": "icons"
     },
     {
         "file_name": "tennisball.svg",
-        "destination_folder": "T"
+        "destination_folder": "icons"
     },
     {
         "file_name": "text.svg",
-        "destination_folder": "T"
+        "destination_folder": "icons"
     },
     {
         "file_name": "thermometer.svg",
-        "destination_folder": "T"
+        "destination_folder": "icons"
     },
     {
         "file_name": "thumbs-down.svg",
-        "destination_folder": "T"
+        "destination_folder": "icons"
     },
     {
         "file_name": "thumbs-up.svg",
-        "destination_folder": "T"
+        "destination_folder": "icons"
     },
     {
         "file_name": "thunderstorm.svg",
-        "destination_folder": "T"
+        "destination_folder": "icons"
     },
     {
         "file_name": "time.svg",
-        "destination_folder": "T"
+        "destination_folder": "icons"
     },
     {
         "file_name": "timer.svg",
-        "destination_folder": "T"
+        "destination_folder": "icons"
     },
     {
         "file_name": "today.svg",
-        "destination_folder": "T"
+        "destination_folder": "icons"
     },
     {
         "file_name": "train.svg",
-        "destination_folder": "T"
+        "destination_folder": "icons"
     },
     {
         "file_name": "transgender.svg",
-        "destination_folder": "T"
+        "destination_folder": "icons"
     },
     {
         "file_name": "trash.svg",
-        "destination_folder": "T"
+        "destination_folder": "icons"
     },
     {
         "file_name": "trending-down.svg",
-        "destination_folder": "T"
+        "destination_folder": "icons"
     },
     {
         "file_name": "trending-up.svg",
-        "destination_folder": "T"
+        "destination_folder": "icons"
     },
     {
         "file_name": "trophy.svg",
-        "destination_folder": "T"
+        "destination_folder": "icons"
     },
     {
         "file_name": "tumblr.svg",
-        "destination_folder": "T"
+        "destination_folder": "icons"
     },
     {
         "file_name": "tux.svg",
-        "destination_folder": "T"
+        "destination_folder": "icons"
     },
     {
         "file_name": "tv.svg",
-        "destination_folder": "T"
+        "destination_folder": "icons"
     },
     {
         "file_name": "twitch.svg",
-        "destination_folder": "T"
+        "destination_folder": "icons"
     },
     {
         "file_name": "twitter.svg",
-        "destination_folder": "T"
+        "destination_folder": "icons"
     },
     {
         "file_name": "umbrella.svg",
-        "destination_folder": "U"
+        "destination_folder": "icons"
     },
     {
         "file_name": "undo.svg",
-        "destination_folder": "U"
+        "destination_folder": "icons"
     },
     {
         "file_name": "unlock.svg",
-        "destination_folder": "U"
+        "destination_folder": "icons"
     },
     {
         "file_name": "usd.svg",
-        "destination_folder": "U"
+        "destination_folder": "icons"
     },
     {
         "file_name": "videocam.svg",
-        "destination_folder": "V"
+        "destination_folder": "icons"
     },
     {
         "file_name": "vimeo.svg",
-        "destination_folder": "V"
+        "destination_folder": "icons"
     },
     {
         "file_name": "vk.svg",
-        "destination_folder": "V"
+        "destination_folder": "icons"
     },
     {
         "file_name": "volume-high.svg",
-        "destination_folder": "V"
+        "destination_folder": "icons"
     },
     {
         "file_name": "volume-low.svg",
-        "destination_folder": "V"
+        "destination_folder": "icons"
     },
     {
         "file_name": "volume-mute.svg",
-        "destination_folder": "V"
+        "destination_folder": "icons"
     },
     {
         "file_name": "volume-off.svg",
-        "destination_folder": "V"
+        "destination_folder": "icons"
     },
     {
         "file_name": "walk.svg",
-        "destination_folder": "W"
+        "destination_folder": "icons"
     },
     {
         "file_name": "wallet.svg",
-        "destination_folder": "W"
+        "destination_folder": "icons"
     },
     {
         "file_name": "warning.svg",
-        "destination_folder": "W"
+        "destination_folder": "icons"
     },
     {
         "file_name": "watch.svg",
-        "destination_folder": "W"
+        "destination_folder": "icons"
     },
     {
         "file_name": "water.svg",
-        "destination_folder": "W"
+        "destination_folder": "icons"
     },
     {
         "file_name": "whatsapp.svg",
-        "destination_folder": "W"
+        "destination_folder": "icons"
     },
     {
         "file_name": "wifi.svg",
-        "destination_folder": "W"
+        "destination_folder": "icons"
     },
     {
         "file_name": "windows.svg",
-        "destination_folder": "W"
+        "destination_folder": "icons"
     },
     {
         "file_name": "wine.svg",
-        "destination_folder": "W"
+        "destination_folder": "icons"
     },
     {
         "file_name": "woman.svg",
-        "destination_folder": "W"
+        "destination_folder": "icons"
     },
     {
         "file_name": "wordpress.svg",
-        "destination_folder": "W"
+        "destination_folder": "icons"
     },
     {
         "file_name": "xbox.svg",
-        "destination_folder": "X"
+        "destination_folder": "icons"
     },
     {
         "file_name": "xing.svg",
-        "destination_folder": "X"
+        "destination_folder": "icons"
     },
     {
         "file_name": "yahoo.svg",
-        "destination_folder": "Y"
+        "destination_folder": "icons"
     },
     {
         "file_name": "yen.svg",
-        "destination_folder": "Y"
+        "destination_folder": "icons"
     },
     {
         "file_name": "youtube.svg",
-        "destination_folder": "Y"
+        "destination_folder": "icons"
     }
 ]

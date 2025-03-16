@@ -9,6 +9,8 @@ import file_picker
 import streamlit as st
 st.logo('icon3.png',size='large')
 destination_dir="destination_dir"
+if "chatlist" not in st.session_state:
+     st.session_state.chatlist=[]
 source_dir="source_dir"
 with st.sidebar:
     if st.button('Develop mode'):
@@ -44,12 +46,15 @@ with st.sidebar:
 
 prompt=st.chat_input('how you want to organize your files?')
 if prompt:
-    chat=st.chat_message("user")
+    st.session_state.chatlist.append(('human',prompt))
+    for i in st.session_state.chatlist:
+        with st.chat_message(i[0]):
+            st.write(i[1])
     #chat.write(prompt)
-    st.write(prompt)
-   # with st.spinner("Gemini is working..."):
-    #    if(main.dothething(st.session_state.source_dir , st.session_state.destination_dir,json_file_path,custom_prompt)):   
-     #       st.write("done")
+    
+    with st.spinner("Gemini is working..."):
+        if(main.dothething(st.session_state.source_dir , st.session_state.destination_dir,json_file_path,prompt)):   
+            st.write("done")
 
 
 

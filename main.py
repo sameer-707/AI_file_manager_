@@ -9,6 +9,8 @@ class rule(BaseModel):
   file_name: str
   destination_folder: str
 
+def identify_type(prompt,GEMINI_API_KEY):
+    pass
 
 
 def get_response(files_list,custom_prompt, GEMINI_API_KEY):
