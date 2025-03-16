@@ -7,12 +7,13 @@ import main
 import file_picker
 # gui to get the source and destination directory
 import streamlit as st
+st.logo('icon3.png',size='large')
 destination_dir="destination_dir"
 source_dir="source_dir"
 with st.sidebar:
     if st.button('Develop mode'):
-        st.session_state[source_dir]="D:\zaved\pythonprojects\gemini\ios_icons"
-        st.session_state[destination_dir]="D:\zaved\pythonprojects\gemini\ios_icons"
+        st.session_state[source_dir]=r"D:\zaved\pythonprojects\gemini\ios_icons"
+        st.session_state[destination_dir]=r"D:\zaved\pythonprojects\gemini\ios_icons"
     def filepick(source_dir):
         
         
@@ -37,7 +38,7 @@ with st.sidebar:
             destination_dir='destination_dir'
             filepick(destination_dir)
         st.write(st.session_state[destination_dir])
-    json_file_path="D:\zaved\pythonprojects\gemini\last_output.json"
+    json_file_path=r"D:\zaved\pythonprojects\gemini\last_output.json"
     if st.button('Undo?'):
         main.revert(json_file_path, st.session_state.source_dir, st.session_state.destination_dir)
 

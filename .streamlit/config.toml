@@ -1,4 +1,14 @@
+[client]
+toolbarMode="developer"
+
+magicEnabled=false
+[server]
+#automatically rerun when a change is observed
+runOnSave = true
 
 [theme]
 base="dark"
 primaryColor="#1fff00"
+
+[browser]
+gatherUsageStats = false

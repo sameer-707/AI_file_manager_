@@ -1,2 +1,7 @@
-* files.py only counts up to 100 files for now
+chat not working..
+
+files.py only counts up to 100 files for now
 undo button
+cannot go above d directory
+implement Status https://docs.streamlit.io/develop/api-reference/status/st.status
+
